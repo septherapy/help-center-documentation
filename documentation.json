@@ -98,8 +98,7 @@
                 "pages": [
                   {
                     "title": "About your therapy room",
-                    "path": "providers/about-your-therapy-room",
-                    "show-toc": false
+                    "path": "providers/about-your-therapy-room"
                   },
                   {
                     "title": "Participants panel",
