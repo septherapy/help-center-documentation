@@ -1,5 +1,5 @@
 {
-  "name": "SEP Therapy Platform help & support",
+  "name": "SEP Therapy Platform help and support",
   "colors": {
     "light": {
       "brand": "#2B67AF",
@@ -25,7 +25,8 @@
             "icon": "home",
             "show-sidebar": false,
             "show-page-navigation": false,
-            "ask-feedback": false
+            "ask-feedback": false,
+            "content-width": "wide"
           },
           {
             "group": "Policies",
