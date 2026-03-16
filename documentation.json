@@ -132,10 +132,6 @@
                   {
                     "title": "Ending sessions",
                     "path": "providers/ending-sessions"
-                  },
-                  {
-                    "title": "Layout modes",
-                    "path": "providers/layout-modes"
                   }
                 ]
               },
