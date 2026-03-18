@@ -126,7 +126,7 @@
                     "path": "providers/participant-video-display"
                   },
                   {
-                    "title": "Inviting and admitting students",
+                    "title": "Inviting & admitting students",
                     "path": "providers/inviting-and-admitting-students"
                   },
                   {
@@ -134,11 +134,6 @@
                     "path": "providers/ending-sessions"
                   }
                 ]
-              },
-              {
-                "title": "Waiting room",
-                "path": "providers/waiting-room",
-                "icon": "alarm-clock-icon"
               }
             ]
           },
