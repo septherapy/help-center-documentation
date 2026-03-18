@@ -126,8 +126,8 @@
                     "path": "providers/participant-video-display"
                   },
                   {
-                    "title": "Admitting students",
-                    "path": "providers/admitting-students"
+                    "title": "Inviting and admitting students",
+                    "path": "providers/inviting-and-admitting-students"
                   },
                   {
                     "title": "Ending sessions",
