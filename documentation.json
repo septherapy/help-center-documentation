@@ -171,6 +171,11 @@
             "icon": "lucide-video"
           },
           {
+            "title": "Participating in sessions",
+            "path": "students/participating-in-sessions",
+            "icon": "laptop-minimal-check"
+          },
+          {
             "title": "Troubleshooting",
             "path": "students/troubleshooting",
             "icon": "alert-triangle"
