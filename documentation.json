@@ -280,5 +280,10 @@
       "source": "/providers/onboarding",
       "destination": "/providers/getting-started"
     }
-  ]
+  ],
+  "integrations": {
+    "posthog": {
+      "apiKey": "phc_86R8CV0wRToGPT36kBvrFVT8OgA76sBOJy3XbeKACxd"
+    }
+  }
 }
