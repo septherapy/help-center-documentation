@@ -98,10 +98,6 @@
                 "expandable": true,
                 "pages": [
                   {
-                    "title": "About your therapy room",
-                    "path": "providers/about-your-therapy-room"
-                  },
-                  {
                     "title": "Participants panel",
                     "path": "providers/participants-panel"
                   },
@@ -133,7 +129,8 @@
                     "title": "Ending sessions",
                     "path": "providers/ending-sessions"
                   }
-                ]
+                ],
+                "path": "providers/therapy-room"
               }
             ]
           },
