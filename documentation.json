@@ -74,12 +74,14 @@
               {
                 "title": "Signing in",
                 "path": "providers/signing-in",
-                "icon": "key-round"
+                "icon": "key-round",
+                "show-page-navigation": false
               },
               {
                 "title": "Dashboard",
                 "path": "providers/dashboard",
-                "icon": "app-window"
+                "icon": "app-window",
+                "show-page-navigation": false
               },
               {
                 "title": "User profile",
@@ -90,7 +92,8 @@
               {
                 "title": "Student records",
                 "path": "providers/student-records",
-                "icon": "files"
+                "icon": "files",
+                "show-page-navigation": false
               },
               {
                 "group": "Therapy room",
@@ -99,38 +102,47 @@
                 "pages": [
                   {
                     "title": "Participants panel",
-                    "path": "providers/participants-panel"
+                    "path": "providers/participants-panel",
+                    "show-page-navigation": false
                   },
                   {
                     "title": "Activity panel",
-                    "path": "providers/activity-panel"
+                    "path": "providers/activity-panel",
+                    "show-page-navigation": false
                   },
                   {
                     "title": "Chat panel",
-                    "path": "providers/chat-panel"
+                    "path": "providers/chat-panel",
+                    "show-page-navigation": false
                   },
                   {
                     "title": "Meeting controls",
-                    "path": "providers/meeting-controls"
+                    "path": "providers/meeting-controls",
+                    "show-page-navigation": false
                   },
                   {
                     "title": "Whiteboard",
-                    "path": "providers/whiteboard"
+                    "path": "providers/whiteboard",
+                    "show-page-navigation": false
                   },
                   {
                     "title": "Participant video display",
-                    "path": "providers/participant-video-display"
+                    "path": "providers/participant-video-display",
+                    "show-page-navigation": false
                   },
                   {
                     "title": "Inviting & admitting students",
-                    "path": "providers/inviting-and-admitting-students"
+                    "path": "providers/inviting-and-admitting-students",
+                    "show-page-navigation": false
                   },
                   {
                     "title": "Ending sessions",
-                    "path": "providers/ending-sessions"
+                    "path": "providers/ending-sessions",
+                    "show-page-navigation": false
                   }
                 ],
-                "path": "providers/therapy-room"
+                "path": "providers/therapy-room",
+                "show-page-navigation": false
               }
             ]
           },
@@ -160,7 +172,8 @@
           {
             "title": "Getting started",
             "path": "students/getting-started",
-            "icon": "arrow-right-circle"
+            "icon": "arrow-right-circle",
+            "show-page-navigation": false
           },
           {
             "title": "Accessing therapy rooms",
@@ -210,24 +223,28 @@
           {
             "title": "Getting started",
             "path": "schools/getting-started",
-            "icon": "arrow-right-circle"
+            "icon": "arrow-right-circle",
+            "show-page-navigation": false
           },
           {
             "title": "Setup guide",
             "path": "schools/setup",
-            "icon": "lucide-settings"
+            "icon": "lucide-settings",
+            "show-page-navigation": false
           },
           {
             "title": "Firewall settings",
             "path": "schools/firewall-settings",
             "icon": "cloud-check",
             "show-toc": false,
-            "content-width": "wide"
+            "content-width": "wide",
+            "show-page-navigation": false
           },
           {
             "title": "Troubleshooting",
             "path": "schools/troubleshooting",
-            "icon": "alert-triangle"
+            "icon": "alert-triangle",
+            "show-page-navigation": false
           },
           {
             "group": "Policies",
