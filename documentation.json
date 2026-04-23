@@ -215,7 +215,12 @@
           {
             "title": "Setup guide",
             "path": "schools/setup",
-            "icon": "lucide-settings",
+            "icon": "lucide-settings"
+          },
+          {
+            "title": "Firewall settings",
+            "path": "schools/firewall-settings",
+            "icon": "cloud-check",
             "show-toc": false,
             "content-width": "wide"
           },
