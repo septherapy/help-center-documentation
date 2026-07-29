@@ -72,12 +72,6 @@
             "expandable": false,
             "pages": [
               {
-                "title": "Signing in",
-                "path": "providers/signing-in",
-                "icon": "key-round",
-                "show-page-navigation": false
-              },
-              {
                 "title": "Dashboard",
                 "path": "providers/dashboard",
                 "icon": "app-window",
@@ -93,6 +87,12 @@
                 "title": "Student records",
                 "path": "providers/student-records",
                 "icon": "files",
+                "show-page-navigation": false
+              },
+              {
+                "title": "Assessments",
+                "path": "providers/assessments",
+                "icon": "lucide-notepad-text",
                 "show-page-navigation": false
               },
               {
