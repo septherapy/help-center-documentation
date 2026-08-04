@@ -90,6 +90,11 @@
                 "show-page-navigation": false
               },
               {
+                "title": "Providers/assessments",
+                "path": "providers/assessments",
+                "icon": "lucide-notebook-text"
+              },
+              {
                 "title": "Student records",
                 "path": "providers/student-records",
                 "icon": "files",
