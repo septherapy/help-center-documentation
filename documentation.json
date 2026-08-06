@@ -90,7 +90,7 @@
                 "show-page-navigation": false
               },
               {
-                "title": "Providers/assessments",
+                "title": "Assessments",
                 "path": "providers/assessments",
                 "icon": "lucide-notebook-text"
               },
