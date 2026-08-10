@@ -1,10 +1,30 @@
 ---
 title: Firewall settings
 ---
-The SEP Therapy Platform is accessed entirely through a web browser with no additional software installation required. However, to ensure students can connect successfully, your network firewall must be configured to allow traffic on specific ports. Please review the port requirements in the table below and ensure these are opened before any student sessions are scheduled. 
+The SEP Therapy Platform is accessed entirely through a web browser with no additional software installation required. However, to ensure therapists and students can connect successfully, your network firewall must be configured to allow traffic on specific ports. Please review the requirements below and ensure these are in place before any sessions are scheduled.
 
-| Protocol | Ports | Destination                         | Explanation          |
-| -------- | ----- | ----------------------------------- | -------------------- |
-| TCP      | 443   | \*.septherapy.com                   | general access       |
-| TCP      | 443   | \*.firebaseio.com \*.googleapis.com | teletherapy services |
+## Required domains
 
+| Protocol | Ports | Destination         | Explanation                                                                  |
+| -------- | ----- | -------------------- | ----------------------------------------------------------------------------- |
+| TCP      | 443   | \*.septherapy.com    | Core application access                                                       |
+| TCP      | 443   | \*.googleapis.com    | Authentication and data storage — wildcard required, covers several subdomains |
+| TCP      | 443   | \*.firebaseio.com    | Realtime session state and presence                                           |
+| TCP      | 443   | \*.livekit.cloud     | Live video and audio for therapy sessions                                     |
+| TCP      | 443   | us.i.posthog.com     | Usage analytics — applies to all users, including students joining by name only |
+
+If your filtering system requires exact hostnames rather than wildcards, contact us for the current specific hostnames. These can change without notice on our end for infrastructure reasons, which is why we recommend wildcard rules wherever your firewall supports them.
+
+## Beyond the allowlist
+
+Opening these domains at the firewall level is necessary but not always sufficient. A few things we see districts miss:
+
+**SSL/TLS inspection.** If your network uses an SSL-decrypting proxy or inspection appliance (for example Zscaler, Palo Alto, or Fortinet), add the domains above to its inspection bypass list in addition to any firewall allow rule. Decrypting inspection can interfere with video sessions even when the domain itself is permitted — these are typically two separate configuration steps on the same appliance.
+
+**WebSocket support.** Real-time session updates and video signaling rely on WebSocket connections, not just standard HTTPS requests. Confirm your firewall or proxy permits the WebSocket upgrade handshake on these domains rather than only plain HTTP(S) traffic.
+
+**Content filtering products.** If your district uses a separate K-12 content filter (for example Securly, GoGuardian, Lightspeed, or iBoss) alongside your network firewall, these often block by content category rather than by domain or port. Video conferencing and analytics traffic can be caught by category filters even when your firewall is correctly configured — add the domains above to your content filter's allowlist as well.
+
+**Connection idle timeouts.** Therapy sessions typically run 30–60 minutes. If your firewall has a short idle-connection timeout, it can drop an active session's connection mid-call. Confirm the timeout for these domains is long enough to cover a full session.
+
+If sessions are connecting but audio or video is unreliable after confirming the above, contact your SEP representative — we can help determine whether the issue is a residual network restriction or something else.
