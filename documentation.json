@@ -54,9 +54,7 @@
       },
       {
         "tab": "Provider resources",
-        "dropdowns": [
-          {
-            "dropdown": "Roadmap",
+      
             "pages": [
               {
                 "title": "Getting started",
@@ -172,8 +170,8 @@
                   }
                 ]
               }
-            ]
-          }
+          
+        
         ]
       },
       {
