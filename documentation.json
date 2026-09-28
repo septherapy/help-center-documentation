@@ -54,118 +54,123 @@
       },
       {
         "tab": "Provider resources",
-        "pages": [
+        "dropdowns": [
           {
-            "title": "Getting started",
-            "path": "providers/getting-started",
-            "icon": "arrow-right-circle",
-            "show-page-navigation": false
-          },
-          {
-            "title": "Troubleshooting",
-            "path": "providers/troubleshooting",
-            "icon": "alert-triangle",
-            "show-page-navigation": false
-          },
-          {
-            "group": "Platform guide",
-            "expandable": false,
+            "dropdown": "Roadmap",
             "pages": [
               {
-                "title": "Signing in",
-                "path": "providers/signing-in",
-                "icon": "key-round",
+                "title": "Getting started",
+                "path": "providers/getting-started",
+                "icon": "arrow-right-circle",
                 "show-page-navigation": false
               },
               {
-                "title": "Dashboard",
-                "path": "providers/dashboard",
-                "icon": "app-window",
+                "title": "Troubleshooting",
+                "path": "providers/troubleshooting",
+                "icon": "alert-triangle",
                 "show-page-navigation": false
               },
               {
-                "title": "User profile",
-                "path": "providers/user-profile",
-                "icon": "lucide-user-circle2",
-                "show-page-navigation": false
-              },
-              {
-                "title": "Assessments",
-                "path": "providers/assessments",
-                "icon": "lucide-notebook-text"
-              },
-              {
-                "title": "Student records",
-                "path": "providers/student-records",
-                "icon": "files",
-                "show-page-navigation": false
-              },
-              {
-                "group": "Therapy room",
-                "icon": "video",
-                "expandable": true,
+                "group": "Platform guide",
+                "expandable": false,
                 "pages": [
                   {
-                    "title": "Participants panel",
-                    "path": "providers/participants-panel",
+                    "title": "Signing in",
+                    "path": "providers/signing-in",
+                    "icon": "key-round",
                     "show-page-navigation": false
                   },
                   {
-                    "title": "Activity panel",
-                    "path": "providers/activity-panel",
+                    "title": "Dashboard",
+                    "path": "providers/dashboard",
+                    "icon": "app-window",
                     "show-page-navigation": false
                   },
                   {
-                    "title": "Chat panel",
-                    "path": "providers/chat-panel",
+                    "title": "User profile",
+                    "path": "providers/user-profile",
+                    "icon": "lucide-user-circle2",
                     "show-page-navigation": false
                   },
                   {
-                    "title": "Meeting controls",
-                    "path": "providers/meeting-controls",
+                    "title": "Assessments",
+                    "path": "providers/assessments",
+                    "icon": "lucide-notebook-text"
+                  },
+                  {
+                    "title": "Student records",
+                    "path": "providers/student-records",
+                    "icon": "files",
                     "show-page-navigation": false
                   },
                   {
-                    "title": "Whiteboard",
-                    "path": "providers/whiteboard",
-                    "show-page-navigation": false
-                  },
-                  {
-                    "title": "Participant video display",
-                    "path": "providers/participant-video-display",
-                    "show-page-navigation": false
-                  },
-                  {
-                    "title": "Inviting & admitting students",
-                    "path": "providers/inviting-and-admitting-students",
-                    "show-page-navigation": false
-                  },
-                  {
-                    "title": "Ending sessions",
-                    "path": "providers/ending-sessions",
+                    "group": "Therapy room",
+                    "icon": "video",
+                    "expandable": true,
+                    "pages": [
+                      {
+                        "title": "Participants panel",
+                        "path": "providers/participants-panel",
+                        "show-page-navigation": false
+                      },
+                      {
+                        "title": "Activity panel",
+                        "path": "providers/activity-panel",
+                        "show-page-navigation": false
+                      },
+                      {
+                        "title": "Chat panel",
+                        "path": "providers/chat-panel",
+                        "show-page-navigation": false
+                      },
+                      {
+                        "title": "Meeting controls",
+                        "path": "providers/meeting-controls",
+                        "show-page-navigation": false
+                      },
+                      {
+                        "title": "Whiteboard",
+                        "path": "providers/whiteboard",
+                        "show-page-navigation": false
+                      },
+                      {
+                        "title": "Participant video display",
+                        "path": "providers/participant-video-display",
+                        "show-page-navigation": false
+                      },
+                      {
+                        "title": "Inviting & admitting students",
+                        "path": "providers/inviting-and-admitting-students",
+                        "show-page-navigation": false
+                      },
+                      {
+                        "title": "Ending sessions",
+                        "path": "providers/ending-sessions",
+                        "show-page-navigation": false
+                      }
+                    ],
+                    "path": "providers/therapy-room",
                     "show-page-navigation": false
                   }
-                ],
-                "path": "providers/therapy-room",
-                "show-page-navigation": false
-              }
-            ]
-          },
-          {
-            "group": "Policies",
-            "expandable": false,
-            "pages": [
-              {
-                "title": "Privacy policy",
-                "path": "privacy-policy",
-                "content-width": "wide",
-                "icon": "lucide-scroll-text"
+                ]
               },
               {
-                "title": "Terms of use",
-                "path": "terms-of-use",
-                "content-width": "wide",
-                "icon": "lucide-scroll-text"
+                "group": "Policies",
+                "expandable": false,
+                "pages": [
+                  {
+                    "title": "Privacy policy",
+                    "path": "privacy-policy",
+                    "content-width": "wide",
+                    "icon": "lucide-scroll-text"
+                  },
+                  {
+                    "title": "Terms of use",
+                    "path": "terms-of-use",
+                    "content-width": "wide",
+                    "icon": "lucide-scroll-text"
+                  }
+                ]
               }
             ]
           }
