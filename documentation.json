@@ -312,6 +312,10 @@
     {
       "source": "/providers/onboarding",
       "destination": "/providers/getting-started"
+    },
+    {
+      "source": "/firewall",
+      "destination": "/districts/fire-wall-settings"
     }
   ],
   "integrations": {
