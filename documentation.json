@@ -315,7 +315,7 @@
     },
     {
       "source": "/firewall",
-      "destination": "/districts/fire-wall-settings"
+      "destination": "/districts/firewall-settings"
     }
   ],
   "integrations": {
