@@ -158,7 +158,8 @@
             "show-parent-label": false,
             "show-page-navigation": false,
             "ask-feedback": false,
-            "content-width": "wide"
+            "content-width": "wide",
+            "icon": "lucide-map"
           },
           {
             "group": "Policies",
