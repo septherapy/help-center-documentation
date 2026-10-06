@@ -278,6 +278,27 @@
             ]
           }
         ]
+      },
+      {
+        "tab": "Troubleshooting",
+        "pages": [
+          {
+            "title": "Camera",
+            "path": "troubleshooting/camera"
+          },
+          {
+            "title": "Microphone",
+            "path": "troubleshooting/microphone"
+          },
+          {
+            "title": "Speakers",
+            "path": "troubleshooting/speakers"
+          },
+          {
+            "title": "Connection",
+            "path": "troubleshooting/connection"
+          }
+        ]
       }
     ],
     "pages": []
