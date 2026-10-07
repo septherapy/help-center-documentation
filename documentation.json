@@ -62,12 +62,6 @@
             "show-page-navigation": false
           },
           {
-            "title": "Troubleshooting",
-            "path": "providers/troubleshooting",
-            "icon": "alert-triangle",
-            "show-page-navigation": false
-          },
-          {
             "group": "Platform guide",
             "expandable": false,
             "pages": [
@@ -209,12 +203,6 @@
             "show-page-navigation": false
           },
           {
-            "title": "Troubleshooting",
-            "path": "students/troubleshooting",
-            "icon": "alert-triangle",
-            "show-page-navigation": false
-          },
-          {
             "group": "Policies",
             "expandable": false,
             "pages": [
@@ -256,12 +244,6 @@
             "show-page-navigation": false
           },
           {
-            "title": "Troubleshooting",
-            "path": "districts/troubleshooting",
-            "icon": "alert-triangle",
-            "show-page-navigation": false
-          },
-          {
             "group": "Policies",
             "expandable": false,
             "pages": [
@@ -284,19 +266,31 @@
         "pages": [
           {
             "title": "Camera",
-            "path": "troubleshooting/camera"
+            "path": "troubleshooting/camera",
+            "show-toc": false,
+            "show-parent-label": false,
+            "show-page-navigation": false
           },
           {
             "title": "Microphone",
-            "path": "troubleshooting/microphone"
+            "path": "troubleshooting/microphone",
+            "show-toc": false,
+            "show-parent-label": false,
+            "show-page-navigation": false
           },
           {
             "title": "Speakers",
-            "path": "troubleshooting/speakers"
+            "path": "troubleshooting/speakers",
+            "show-toc": false,
+            "show-parent-label": false,
+            "show-page-navigation": false
           },
           {
             "title": "Connection",
-            "path": "troubleshooting/connection"
+            "path": "troubleshooting/connection",
+            "show-toc": false,
+            "show-parent-label": false,
+            "show-page-navigation": false
           }
         ]
       }
