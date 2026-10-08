@@ -271,35 +271,40 @@
             "show-parent-label": false,
             "show-page-navigation": false,
             "ask-feedback": false,
-            "content-width": "wide"
+            "content-width": "wide",
+            "icon": "home"
           },
           {
             "title": "Camera",
             "path": "troubleshooting/camera",
             "show-toc": false,
             "show-parent-label": false,
-            "show-page-navigation": false
+            "show-page-navigation": false,
+            "icon": "lucide-webcam"
           },
           {
             "title": "Microphone",
             "path": "troubleshooting/microphone",
             "show-toc": false,
             "show-parent-label": false,
-            "show-page-navigation": false
+            "show-page-navigation": false,
+            "icon": "lucide-mic"
           },
           {
             "title": "Speakers",
             "path": "troubleshooting/speakers",
             "show-toc": false,
             "show-parent-label": false,
-            "show-page-navigation": false
+            "show-page-navigation": false,
+            "icon": "lucide-volume2"
           },
           {
             "title": "Connection",
             "path": "troubleshooting/connection",
             "show-toc": false,
             "show-parent-label": false,
-            "show-page-navigation": false
+            "show-page-navigation": false,
+            "icon": "lucide-signal"
           }
         ]
       }
