@@ -115,6 +115,11 @@
                     "show-page-navigation": false
                   },
                   {
+                    "title": "Hand raising",
+                    "path": "providers/hand-raising",
+                    "show-page-navigation": false
+                  },
+                  {
                     "title": "Meeting controls",
                     "path": "providers/meeting-controls",
                     "show-page-navigation": false
