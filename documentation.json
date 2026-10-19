@@ -39,14 +39,6 @@
                 "show-parent-label": false,
                 "show-page-navigation": false,
                 "ask-feedback": false
-              },
-              {
-                "title": "Terms of use",
-                "path": "terms-of-use",
-                "icon": "lucide-scroll-text",
-                "show-parent-label": false,
-                "show-page-navigation": false,
-                "ask-feedback": false
               }
             ]
           }
@@ -163,12 +155,6 @@
                 "path": "privacy-policy",
                 "content-width": "wide",
                 "icon": "lucide-scroll-text"
-              },
-              {
-                "title": "Terms of use",
-                "path": "terms-of-use",
-                "content-width": "wide",
-                "icon": "lucide-scroll-text"
               }
             ]
           }
@@ -209,11 +195,6 @@
                 "title": "Privacy policy",
                 "path": "privacy-policy",
                 "icon": "lucide-scroll-text"
-              },
-              {
-                "title": "Terms of use",
-                "path": "terms-of-use",
-                "icon": "lucide-scroll-text"
               }
             ]
           }
@@ -249,11 +230,6 @@
               {
                 "title": "Privacy policy",
                 "path": "privacy-policy",
-                "icon": "lucide-scroll-text"
-              },
-              {
-                "title": "Terms of use",
-                "path": "terms-of-use",
                 "icon": "lucide-scroll-text"
               }
             ]
